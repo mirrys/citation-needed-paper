@@ -1,0 +1,8 @@
+The Tensorflow models to detect Citation Need for English, French, and Italian Wikipedia can be found here:
+
+https://drive.google.com/drive/folders/166ok0FmW-SiMNJl9ZYpeVjc8BeO1195W?usp=sharing
+
+Format of the (zipped) files is:
+fa_<language_code>_model_rnn_attention_section.h5.gz
+
+Where language_code can be: [en, fr, it].

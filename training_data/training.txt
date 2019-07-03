@@ -1,0 +1,11 @@
+In [1] you can download the samples we used for evaluation. 
+
+The folders are “fa” (featured articles), “lqn” (citation needed), and “rnd” (random articles).
+
+In each of these folders you will find 2 files:
+* “all_citations*” are files containing the positive instances, that is, statements that have a citation.
+* “no_citations” contain the statements that do not require a citation (negative instances). 
+
+In the “lqn” dataset you have another case of “cn_citations”, which is basically similar to the positive instances, but with the only difference that instead of having an actual citation, those statements have “citation needed” marker. 
+
+[1] https://drive.google.com/drive/folders/1zG6orf0_h2jYBvGvso1pSy3ikbNiW0xJ?usp=sharing

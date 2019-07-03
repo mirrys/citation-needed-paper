@@ -38,3 +38,25 @@ Python 2.7
 Keras 2.1.5
 Tensorflow 1.7.0
 sklearn 0.18.1
+
+### Citing this work
+When using this dataset, please use the following citation:
+'''
+@inproceedings{Redi:2019:CNT:3308558.3313618,
+ author = {Redi, Miriam and Fetahu, Besnik and Morgan, Jonathan and Taraborelli, Dario},
+ title = {Citation Needed: A Taxonomy and Algorithmic Assessment of Wikipedia's Verifiability},
+ booktitle = {The World Wide Web Conference},
+ series = {WWW '19},
+ year = {2019},
+ isbn = {978-1-4503-6674-8},
+ location = {San Francisco, CA, USA},
+ pages = {1567--1578},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/3308558.3313618},
+ doi = {10.1145/3308558.3313618},
+ acmid = {3313618},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Citations, Crowdsourcing, Neural Networks;, Wikipedia},
+} 
+'''

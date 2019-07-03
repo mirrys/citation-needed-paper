@@ -41,7 +41,8 @@ sklearn 0.18.1
 
 ### Citing this work
 When using this dataset, please use the following citation:
-'''
+
+```
 @inproceedings{Redi:2019:CNT:3308558.3313618,
  author = {Redi, Miriam and Fetahu, Besnik and Morgan, Jonathan and Taraborelli, Dario},
  title = {Citation Needed: A Taxonomy and Algorithmic Assessment of Wikipedia's Verifiability},
@@ -59,4 +60,5 @@ When using this dataset, please use the following citation:
  address = {New York, NY, USA},
  keywords = {Citations, Crowdsourcing, Neural Networks;, Wikipedia},
 } 
-'''
+```
+

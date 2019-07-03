@@ -30,6 +30,11 @@ An example input file is provided in *test_input_data_sample.txt*
 #### Models and Data
 The _models_ folder contains the links to the citation need models for _English_, _French_, and _Italian_ Wikipedias, trained on a large corpus of Wikipedia's Featured Articles. The training data for these articles, as well as more training data for other models described in the paper can be found in the _training_data_ folder.
 
+### Data about citation reason and qualitative analysis
+In the paper, we have more data about the qualitative analysis to identify a taxonomy of reasons for adding citations.
+The material behind the thought process can be found here: https://figshare.com/articles/Summaries_of_Policies_and_Rules_for_Adding_Citations_to_Wikipedia/7751027
+
+The crowdsourced data with sentences annotated with their citation reasons can be found here: https://figshare.com/articles/%20Citation_Reason_Dataset/7756226
 
 ### System Requirements
 There are some requirements for this script to run smoothly. Below are the versions which they’d need to have in order to run this script.  

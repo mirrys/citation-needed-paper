@@ -1,0 +1,14 @@
+To run the models, you will need two dictionaries:
+* Sentence dictionary: these are the embeddings for the words in the sentences
+* Section dictionary: embeddings for the section titles.
+
+Whatever words or sections are outside these two dictionaries, they will be assigned the UNK embedding. 
+
+All dictionaries in their pickle format can be found here: https://drive.google.com/drive/folders/1dlocPHPz6Giv9nS8rR4t6kes8nlJ3inX?usp=sharing
+
+The file format is:
+<dict type>_dict_<lan>.pck
+
+Where:
+* <dict type> in [word,section]
+* <lan> in [en,fr,it]

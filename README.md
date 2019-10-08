@@ -44,6 +44,30 @@ Keras 2.1.5
 Tensorflow 1.7.0
 sklearn 0.18.1
 
+#### Using virtualenv to install required packages
+First, install virtualenv package via pip:
+```
+$ pip install virtualenv
+```
+Then, run the following commands to create a virtualenv and activate it:
+```
+$ virtualenv ENV
+$ source ENV/bin/activate
+```
+The name of the virtual environment (in this case, it is `ENV`) can be anything. Once you activate the virtualenv, you will see `(ENV)` showing before the shell prompt.
+
+Now, go to the repository folder and install the dependencies listed in the `requirements.txt`:
+```
+(ENV) $ cd citation-needed-paper
+(ENV) $ pip install -r requirements.txt
+```
+
+If you are done working in the virtualenv, use following command to leave the virtualenv:
+```
+(ENV) $ deactivate
+```
+For more information how to use virtualenv, please see [Virtualenv](https://virtualenv.pypa.io/en/stable/).
+
 ### Citing this work
 When using this dataset, please use the following citation:
 

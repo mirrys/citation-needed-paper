@@ -37,14 +37,12 @@ The material behind the thought process can be found here: https://figshare.com/
 The crowdsourced data with sentences annotated with their citation reasons can be found here: https://figshare.com/articles/%20Citation_Reason_Dataset/7756226
 
 ### System Requirements
-There are some requirements for this script to run smoothly. Below are the versions which they’d need to have in order to run this script.  
 
 Python 2.7 
-Keras 2.1.5
-Tensorflow 1.7.0
-sklearn 0.18.1
 
-#### Using virtualenv to install required packages
+### Installing dependencies
+There are some requirements for this script to run smoothly. Below are the instructions for installing dependencies in order to run this script.  
+
 First, install virtualenv package via pip:
 ```
 $ pip install virtualenv

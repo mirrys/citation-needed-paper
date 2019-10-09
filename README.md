@@ -36,7 +36,7 @@ The material behind the thought process can be found here: https://figshare.com/
 
 The crowdsourced data with sentences annotated with their citation reasons can be found here: https://figshare.com/articles/%20Citation_Reason_Dataset/7756226
 
-### System Requirements
+### System Requirement
 
 Python 2.7 
 

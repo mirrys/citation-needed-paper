@@ -36,13 +36,35 @@ The material behind the thought process can be found here: https://figshare.com/
 
 The crowdsourced data with sentences annotated with their citation reasons can be found here: https://figshare.com/articles/%20Citation_Reason_Dataset/7756226
 
-### System Requirements
-There are some requirements for this script to run smoothly. Below are the versions which they’d need to have in order to run this script.  
+### System Requirement
 
 Python 2.7 
-Keras 2.1.5
-Tensorflow 1.7.0
-sklearn 0.18.1
+
+### Installing dependencies
+There are some requirements for this script to run smoothly. Below are the instructions for installing dependencies in order to run this script.  
+
+First, install virtualenv package via pip:
+```
+$ pip install virtualenv
+```
+Then, run the following commands to create a virtualenv and activate it:
+```
+$ virtualenv ENV
+$ source ENV/bin/activate
+```
+The name of the virtual environment (in this case, it is `ENV`) can be anything. Once you activate the virtualenv, you will see `(ENV)` showing before the shell prompt.
+
+Now, go to the repository folder and install the dependencies listed in the `requirements.txt`:
+```
+(ENV) $ cd citation-needed-paper
+(ENV) $ pip install -r requirements.txt
+```
+
+If you are done working in the virtualenv, use following command to leave the virtualenv:
+```
+(ENV) $ deactivate
+```
+For more information how to use virtualenv, please see [Virtualenv](https://virtualenv.pypa.io/en/stable/).
 
 ### Citing this work
 When using this dataset, please use the following citation:

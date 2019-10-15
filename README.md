@@ -5,11 +5,11 @@ Repository of data and code to use the models described in the paper "Citation N
 The repository provides data and models to score sentences according to their "citation need", i.e. whether an inline citation is needed to support the information in the sentence. Models are implemented in Keras.
 
 #### Using Citation Need Models
-The *test_citation_need_model.py* script takes as input a text file containing statements to be classified, and gives as ouput a "citation need" score of reach sentence.
+The *run_citation_need_model.py* script takes as input a text file containing statements to be classified, and gives as ouput a "citation need" score of reach sentence.
 
 To run the script, you can use the following command:
 ```
-python test_citation_need_model.py -i input_file.txt  -m models/model.h5 -v dicts/word_dict.pck -s dicts/section_dict.pck -o output_folder -l it
+python run_citation_need_model.py -i input_file.txt  -m models/model.h5 -v dicts/word_dict.pck -s dicts/section_dict.pck -o output_folder -l it
 ```
 
 Where:

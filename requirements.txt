@@ -12,7 +12,7 @@ html5lib==0.9999999
 Keras==2.1.5
 Markdown==3.1.1
 mock==3.0.5
-numpy==1.16.5
+numpy==1.22.0
 pandas==0.24.2
 protobuf==3.10.0
 python-dateutil==2.8.0
